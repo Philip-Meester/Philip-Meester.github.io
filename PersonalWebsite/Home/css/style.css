@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-input[type="checkbox"] {
-    display: none;
-}
-
 body 
 {
     color: black;
@@ -89,12 +85,31 @@ header
     border-radius: 0px 10px 10px 0px;
 }
 
+.year-container {
+    margin-bottom: 20px;
+}
 
-.work-container .achievements
+
+.achievements
 {
+    display: none;
     flex-wrap: wrap;
     align-items: left;
     justify-content: left;
-    margin: 20px;
-    padding-left: 30px;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+input[type="checkbox"] 
+{
+    display: none;
+}
+
+input[type="checkbox"]:checked + .year-button + .achievements 
+{
+    display: block;
+}
+
+input[type="checkbox"]:not(:checked) + .year-button + .achievements {
+    display: none;
 }
