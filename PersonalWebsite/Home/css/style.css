@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body 
+{
+    color: black;
+    background-color: #ffecd1;
+    /*60 cream color #001524*/
+    /*30 cream color #ffecd1*/
+    /*10 off teal #15616d*/
+}
+
+header, h2, .about-container, .work-container, .achievements {
+    display: flex;
+    flex-direction: column;
+}
+
+header 
+{
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    color:#ffecd1;
+    background-color: #001524;
+    border-radius: 5px;
+    box-shadow: -5px 5px #15616d;
+}
+
+.about-container 
+{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px 0px 20px;
+    border: 1px solid #15616d;
+    border-radius: 5px;
+    box-shadow: -5px 5px #15616d;
+}
+
+.about-container h2
+{
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color:#ffecd1;
+    background-color: #001524;
+}
+
+.about-container p
+{
+    padding: 10px;
+}
+
+.work-container 
+{
+    position: relative;
+    align-items: left;
+    justify-content: center;
+    margin: 30px 20px 0px 20px;
+    border: 1px solid #15616d;
+    border-radius: 5px;
+    box-shadow: -5px 5px #15616d;
+}
+
+.work-container h2
+{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 10px;
+    color:#ffecd1;
+    background-color: #001524;
+}
+
+.work-container label
+{
+    color:#ffecd1;
+    background-color: #001524;
+    margin-top: 10px;
+    padding: 5px 10px 5px 5px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.year-container {
+    margin-bottom: 20px;
+}
+
+
+.achievements
+{
+    display: none;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: left;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+input[type="checkbox"] 
+{
+    display: none;
+}
+
+input[type="checkbox"]:checked + .year-button + .achievements 
+{
+    display: block;
+}
+
+input[type="checkbox"]:not(:checked) + .year-button + .achievements {
+    display: none;
+}
