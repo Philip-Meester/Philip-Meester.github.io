@@ -33,26 +33,52 @@ header
     box-shadow: -5px 5px #15616d;
 }
 
-h2
-{
-    align-items: center;
-    margin: 20px;
-}
-
 .about-container 
 {
+    position: relative;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 30px 20px 0px 20px;
+    border: 1px solid #15616d;
+    border-radius: 5px;
+    box-shadow: -5px 5px #15616d;
+}
+
+.about-container h2
+{
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color:#ffecd1;
+    background-color: #001524;
+}
+
+.about-container p
+{
+    padding: 10px;
 }
 
 .work-container 
 {
+    position: relative;
     align-items: left;
     justify-content: center;
-    flex-wrap: wrap;
-    margin: 30px;
+    margin: 30px 20px 0px 20px;
+    border: 1px solid #15616d;
+    border-radius: 5px;
+    box-shadow: -5px 5px #15616d;
 }
+
+.work-container h2
+{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color:#ffecd1;
+    background-color: #001524;
+}
+
 
 .achievements 
 {
@@ -61,4 +87,3 @@ h2
     margin: 15px;
     padding-left: 30px;
 }
-
