@@ -1,0 +1,16 @@
+* { 
+    padding: 0; 
+    margin: 0; }
+
+input[type="checkbox"] {
+    display: none;
+}
+
+body
+{
+    color: white;
+    background-color: #001524;
+    /*30 cream color #ffecd1*/
+    /*10 off teal #15616d*/
+}
+
