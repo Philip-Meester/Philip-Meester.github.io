@@ -1,16 +1,48 @@
-* { 
-    padding: 0; 
-    margin: 0; }
+* 
+    { 
+        padding: 0; 
+        margin: 0;
+    }
 
-input[type="checkbox"] {
-    display: none;
-}
+input[type="checkbox"] 
+    {
+        display: none;
+    }
 
 body
-{
-    color: white;
-    background-color: #001524;
-    /*30 cream color #ffecd1*/
-    /*10 off teal #15616d*/
-}
+    {
+        color: white;
+        background-color: #001524;
+        /*30 cream color #ffecd1*/
+        /*10 off teal #15616d*/
+    }
+
+header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+header h1
+    {    
+    margin: 10px;
+    }
+
+.about-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+.about-container h2, .about-container p
+    {
+        margin: 10px;
+    }
+
+
+
 
