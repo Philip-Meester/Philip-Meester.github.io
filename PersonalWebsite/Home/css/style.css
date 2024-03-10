@@ -24,6 +24,7 @@ header
         align-items: center;
         justify-content: center;
     }
+    
 header h1
     {    
     margin: 10px;
@@ -35,13 +36,46 @@ header h1
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 20px;
 
     }
 
-.about-container h2, .about-container p
+.about-container h2
     {
-        margin: 10px;
+        margin: 20px;
     }
+
+.work-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin:30px
+    }
+
+.work-container h2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin:30px
+    }
+
+
+.achievements
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        margin: 15px;
+        padding-left: 30px;
+    }
+
 
 
 
