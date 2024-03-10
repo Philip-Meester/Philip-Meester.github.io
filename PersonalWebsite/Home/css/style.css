@@ -1,82 +1,64 @@
-* 
-    { 
-        padding: 0; 
-        margin: 0;
-    }
+* {
+    padding: 0;
+    margin: 0;
+}
 
-input[type="checkbox"] 
-    {
-        display: none;
-    }
+input[type="checkbox"] {
+    display: none;
+}
 
-body
-    {
-        color: white;
-        background-color: #001524;
-        /*30 cream color #ffecd1*/
-        /*10 off teal #15616d*/
-    }
+body 
+{
+    color: black;
+    background-color: #ffecd1;
+    /*60 cream color #001524*/
+    /*30 cream color #ffecd1*/
+    /*10 off teal #15616d*/
+}
 
-header
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-header h1
-    {    
-    margin: 10px;
-    }
+header, h2, .about-container, .work-container, .achievements {
+    display: flex;
+    flex-direction: column;
+}
 
-.about-container
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 20px;
+header 
+{
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    color:#ffecd1;
+    background-color: #001524;
+    border-radius: 5px;
+    box-shadow: -5px 5px #15616d;
+}
 
-    }
+h2
+{
+    align-items: center;
+    margin: 20px;
+}
 
-.about-container h2
-    {
-        margin: 20px;
-    }
+.about-container 
+{
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
 
-.work-container
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin:30px
-    }
+.work-container 
+{
+    align-items: left;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
 
-.work-container h2
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin:30px
-    }
-
-
-.achievements
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: left;
-        margin: 15px;
-        padding-left: 30px;
-    }
-
-
-
-
+.achievements 
+{
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    padding-left: 30px;
+}
 
